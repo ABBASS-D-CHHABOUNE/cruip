@@ -251,10 +251,10 @@ function Hero() {
 
     {/* pricing  */}
 
-    <section>
+    <section className="bg-gradient-b from-[#101D2D] to-white flex justify-center items-center flex-col ">
         
         
-        <div>
+        <div >
             <PricingDes></PricingDes>
         </div>
     </section>
@@ -264,7 +264,7 @@ function Hero() {
     {/* Say goodbye to long queues, big updates, and */}
 
 
-    <section className="w-full flex justify-center items-center flex-col bg-[#F1F5F9] md:h-150 h-screen" >
+    <section className="w-full flex justify-center items-center flex-col bg-[#F1F5F9] h-screen " >
 
         <div className="w-full flex justify-center items-center flex-col md:w-[74%] p-4 gap-5" >
             <h1 className="text-5xl font-bold text-center" >Say goodbye to long queues, big updates, and <span className="text-[#00BC7D]">confusion</span></h1>

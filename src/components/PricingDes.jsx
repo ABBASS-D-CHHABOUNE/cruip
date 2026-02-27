@@ -25,10 +25,10 @@ function PricingDes() {
   ];
 
   return (
-    <section className="py-20 bg-[#101D2D]">
-      <div className="text-center mb-10">
-        <div className="w-full flex justify-center items-center ">
-            <h1 className="text-5xl font-bold w-[50%] text-center text-white ">Find the right plan for your business</h1>
+    <section className=" bg-[#101D2D] h-500 md:h-screen">
+      <div className="text-center w-full ">
+        <div className="w-full flex justify-center items-center p-5  ">
+            <h1 className="text-5xl font-bold md:w-[50%] w-full text-center text-white ">Find the right plan for your business</h1>
         </div>
 
         {/* Toggle */}
