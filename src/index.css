@@ -11,3 +11,13 @@ h1
   font-family: "Playfair Display", serif;
   font-weight: weight;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  --swiper-navigation-size: 40px; /* change this */
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+
+}
