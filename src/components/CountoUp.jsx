@@ -5,7 +5,7 @@ import { ArrowRight, Phone, ShoppingCart, User} from "lucide-react";
 
 function CountoUp() {
   return (
-    <section className=" bg-[#F1F5F9] md:p-20 p-5  flex flex-col items-center gap-6">
+    <section className="  md:p-20 p-5  flex flex-col items-center gap-6">
   
       <div className="flex flex-col flex-wrap justify-center gap-5 ">
         {/* Example Counter */}

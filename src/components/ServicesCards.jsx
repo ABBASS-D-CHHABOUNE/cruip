@@ -2,7 +2,7 @@ import { CreditCard } from "lucide-react";
 export default function ServicesCards() {
 
     return <>
-    <section  className=" w-full flex justify-center items-center flex-col bg-amber-50 pt-4 pb-4 " >
+    <section  className=" w-full flex justify-center items-center flex-col bg-white pt-4 pb-4 " >
 
       <div id="Container-cards" className="grid grid-cols-2 p-4 gap-3 md:gap-10 md:grid md:grid-cols-3 md:justify-between md:w-[83%]  w-full">
 

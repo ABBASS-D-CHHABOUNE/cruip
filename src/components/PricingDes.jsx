@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Check } from "lucide-react";
 
 function PricingDes() {
   const [yearly, setYearly] = useState(false);
@@ -92,10 +93,10 @@ function PricingDes() {
            
                 <div className="flex flex-col justify-center gap-4 h-60  ">
                     <h2 className="pt-1 pb-1">All features of Essential plus:</h2>
-                <div><i>I</i> <span>50 Placeholder text commonly</span></div>
-                <div><i>I</i> <span>50 Placeholder text commonly</span></div>
-                <div><i>I</i> <span>50 Placeholder text commonly</span></div>
-                <div><i>I</i> <span>50 Placeholder text commonly</span></div>
+                <div className="flex flex-row gap-2" > <Check className="text-green-500 w-5 h-5" /> <span>50 Placeholder text commonly</span></div>
+                <div className="flex flex-row gap-2" > <Check className="text-green-500 w-5 h-5" /> <span>50 Placeholder text commonly</span></div>
+                <div className="flex flex-row gap-2" > <Check className="text-green-500 w-5 h-5" /> <span>50 Placeholder text commonly</span></div>
+                <div className="flex flex-row gap-2" > <Check className="text-green-500 w-5 h-5" /> <span>50 Placeholder text commonly</span></div>
                 </div>
             
 
